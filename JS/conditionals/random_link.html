@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Link</title>
+</head>
+<body>
+    <p>
+        Random link: This example will write a link to either W3Schools or to the World Wildlife Foundation (WWF). By using a random number, there is a 50% chance for each of the links.
+    </p> 
+    <h2>JavaScript Math.random()</h2>
+
+    <p id="demo"></p>
+    <script>
+        let text;
+        if (Math.random() < 0.5) {
+            text = "<a href='https://w3schools.com'>Visit W3Schools</a>";
+        } else {
+            text = "<a href='https://wwf.org'>Visit WWF</a>";
+        }
+        document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+</html>

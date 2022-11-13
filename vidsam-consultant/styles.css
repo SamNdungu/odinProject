@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@300&display=swap');
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  padding: 24px
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 32px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  color: #f9faf8;
+  gap: 32px;
+  list-style-type: none;
+}
+.left-link,
+.right-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.hero {
+    margin: 0;
+    padding: 0;
+    background: #1f2937;
+    height: 80vh;
+}
+.hero-area {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+ .hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background: #3882F6;
+}
+
+.services h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.cards {
+  padding: 65px;
+  display: flex;
+}
+.card {
+  padding: 55px;
+}
+.card-image {
+  display: flex;
+}
+
+.card-text p{
+  font-family: 'Lora', serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 65px;
+  background: #E5E7EB;
+}
+
+ blockquote {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1F2937;
+} 
+
+figcaption {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end; 
+  font-size: 36px; 
+  padding-right: 48px;
+}
+
+.call-action {
+  display: flex;
+  justify-content: space-around;
+  background: #3882F6;
+  padding: 16px;
+  margin: 75px;
+}
+.sign-in {
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  text-align: center;
+  background:  #1F2937;
+  padding: 15px;
+}
+  
